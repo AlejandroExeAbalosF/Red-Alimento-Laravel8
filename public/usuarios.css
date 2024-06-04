@@ -1,0 +1,21 @@
+
+table > tbody > tr > td {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+/*para alinear horizontal la visualizacion de registros con el cuadro de busqueda*/
+
+.dataTables_length {
+    position: absolute !important;
+}
+
+@media (max-width: 767px) {
+
+    /*para alinear vertical la visualizacion de registros con el cuadro de busqueda*/
+
+    .dataTables_length {
+        position: relative !important;
+    }
+}
+
