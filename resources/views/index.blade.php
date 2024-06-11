@@ -79,7 +79,7 @@
                 <?php for($j=0; $j < count($productos[$i]); $j++ ){ ?>
                     <div class="col-lg-3">
                         <div class="card border-success mb-3" style="margin-bottom: 20px; height: auto;">
-                          <img  src="{{ $productos[$i][$j]->imagen }}" alt="{{ $productos[$i][$j]->nombre }}" id="image_preview" class="imagen">
+                          <img  src="{{ asset($productos[$i][$j]->imagen) }}" alt="{{ $productos[$i][$j]->nombre }}" id="image_preview" class="imagen">
                             <div class="card-body">
                                 <h6 class="card-title">{{ $productos[$i][$j]->nombre }}</h6>
                                 <h6 class="card-title">disponible {{( $productos[$i][$j]->kg_x_cajon ) * ($productos[$i][$j]->stock)}}kg</h6> 

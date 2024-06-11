@@ -51,7 +51,7 @@
                             <td>{{$produ->id}}</td>
                             <td>{{$produ->nombre}}</td>
                             <td>
-                                <img  src="{{ $produ->imagen }}" alt="{{ $produ->nombre }}" id="image_preview" class="imagen">
+                                <img style="width: 20%" src="{{ $produ->imagen }}" alt="{{ $produ->nombre }}" id="image_preview" class="imagen">
                        
                                 {{-- <img src="{{ $produ->imagen }}" alt="{{ $produ->nombre }}" class="img-fluid" style="width: 100px;"> --}}
                             </td>
